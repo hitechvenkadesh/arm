@@ -3,8 +3,7 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"ipCount": {
-			"type": "int",
-			"defaultValue": 3
+			"type": "int"
 		}
 	},
 	"resources": [{
