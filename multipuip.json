@@ -10,15 +10,10 @@
 		"type": "Microsoft.Network/publicIPAddresses",
 		"apiVersion": "2020-08-01",
 		"name": "[concat('puip', copyIndex())]",
-		"location": "[resourceGroup().location]",
+		"location": "eastus",
 		"sku": {
 			"name": "Standard"
 		},
-		"zones": [
-			"1",
-			"2",
-			"3"
-		],
 		"properties": {
 			"publicIPAllocationMethod": "Static",
 			"publicIPAddressVersion": "IPv4"
